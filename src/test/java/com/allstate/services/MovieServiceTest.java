@@ -37,5 +37,9 @@ public class MovieServiceTest {
          before.setTitle("The Matrix");
          Movie after = this.service.create(before);
          assertEquals(after.getId() > 0);
+
+
+
+
     }
 }
